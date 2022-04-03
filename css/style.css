@@ -7,10 +7,12 @@ body {
     background: #fefefe;
 }
 main{
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
 .formulario{
+    
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -18,17 +20,19 @@ main{
 }
 
 .formulario input {
-    
     width: 50%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     background: #dddddd;
     outline: none;
     border: none;
-    height: 1.5rem;
-    margin: 0.5rem auto;
+    border-radius: 3px;
+    height: 2.25rem;
+    margin: 0.25rem auto;
     transition: all 0.2s;
 }
+
+
 
 .formulario input:focus{
     border-bottom: solid 2px #3535f7;
@@ -53,6 +57,7 @@ main{
 }
 
 .container-lista{
+    overflow: scroll;
     margin: 0 auto;
     width: 90%;
     height: 50vh;

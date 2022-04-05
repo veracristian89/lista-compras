@@ -13,11 +13,18 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.head h1{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 main{
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
+
 .formulario{
     
     padding: 0 2rem;
@@ -38,7 +45,6 @@ main{
     margin: 0.25rem auto;
     transition: all 0.2s;
 }
-
 
 .formulario input:focus{
     border-bottom: solid 2px #3535f7;
@@ -108,4 +114,14 @@ main{
 .oscuro{
     background: rgb(19, 18, 18);
     color: white;
+}
+
+@media screen and (max-width: 500px) {
+
+    .head{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
 }

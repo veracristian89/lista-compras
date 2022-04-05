@@ -12,11 +12,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header class="head">
+            <h1>Calculadora de compras</h1>
+            <div class="contenedor">
+                <span>Tema oscuro</span>
+                <button class="on">on</button>
+                <button class="off">off</button>
+            </div>
+        </header>        
         <main>
             <form class="formulario" action="">
-                <input class="formulario__producto" placeholder="Producto" type="text">
-                <input class="formulario__precio" placeholder="Precio" type="number">
-                <input class="formulario__cantidad" placeholder="Cantidad" type="number">
+                <input class="input formulario__producto" placeholder="Producto" type="text">
+                <input class="input formulario__precio" placeholder="Precio" type="number">
+                <input class="input formulario__cantidad" placeholder="Cantidad" type="number">
                 <button class="formulario__btncargar" >Cargar</button>
             </form>
             <div class="container-lista">
@@ -27,5 +35,6 @@
             </div>
         </main>
         <script src="js/principal.js"></script>
+        <script src="js/oscuro.js"></script>
     </body>
 </html>

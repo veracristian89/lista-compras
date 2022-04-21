@@ -9,14 +9,15 @@ body {
 
 .head{
     font-family: 'Josefin Sans', sans-serif;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 0 2rem;
     display: flex;
     justify-content: space-between;
 }
 
 .head h1{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 main{
@@ -64,8 +65,9 @@ main{
     
 }
 
-.formulario__btncargar:active{
+.formulario__btncargar:hover{
     background: #2d2dc4;
+    cursor: pointer;
 }
 
 .container-lista{
